@@ -1,6 +1,6 @@
 # Zoom PWA apparence polish for ChromeOS
 
-Make Zoom PWA more themed towards ChromeOS with colored title bar and alternate tab icon. \
+Make Zoom PWA more like a native ChromeOS app with colored title bar and alternate tab icon. \
 [Installation tutorial]()
 
 #### Before
