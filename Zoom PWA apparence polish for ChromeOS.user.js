@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Zoom PWA apparence polish for ChromeOS
+// @name         Zoom PWA Clean polish for ChromeOS
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  Make Zoom PWA more themed towards ChromeOS with colored title bar and alternate tab icon.
