@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Zoom PWA apparence polish for ChromeOS
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Make Zoom PWA more themed towards ChromeOS with colored title bar and alternate tab icon.
 // @author       Jiayuan "Weldon" Wen
 // @match        https://pwa.zoom.us/*
+// @match        https://pwa.zoom.us
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=zoom.us
 // @grant        GM_addStyle
 // ==/UserScript==
@@ -36,7 +37,8 @@
     }, false);
 
     // Redirect to wc
-    if ( window.location.href.indexOf("chromeos")> -1) {
+    //if ( window.location.href.indexOf("chromeos")> -1) {
+      if ( window.location.href.indexOf("wc") <= -1 ) {
        document.body.innerHTML = "Redirecting...";
 
        var redirect = document.createElement('meta');
